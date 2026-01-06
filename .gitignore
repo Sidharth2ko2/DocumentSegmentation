@@ -1,0 +1,23 @@
+# --- Python Virtual Environment ---
+env/
+venv/
+.venv/
+
+# --- Training Data & Large Files ---
+backend/data/
+**/__pycache__/
+*.py[cod]
+
+# --- Machine Learning Models (safetensors, json, etc) ---
+backend/models/
+*.safetensors
+*.bin
+
+# --- Frontend Dependencies ---
+frontend/node_modules/
+frontend/dist/
+
+# --- Databases & OS ---
+*.db
+*.sqlite
+.DS_Store
